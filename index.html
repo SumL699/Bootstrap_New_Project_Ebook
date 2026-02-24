@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ebook</title>
+        <link href="/css/main.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    </head>
+    <body>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container-xxl">
+                    <a href="#intro" class="navbar-brand">
+                        <span class="fw-bolder text-secondary">
+                            <i class="bi bi-book-half"></i>
+                            Ebook Store
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                    aria-label="Toggle navigation"> 
+                    <span class="navbar-toggler-icon"></span></button>
+
+                    <!-- Navbar Item -->
+
+                    <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#topic" class="nav-link">About the Book</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#review" class="nav-link">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Get in touch</a>
+                            </li>
+                            <li class="nav-item d-md-none">
+                                <a href="#pricing" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item ms-2 d-none d-md-inline">
+                                <a href="#pricing" class="btn btn-secondary">Buy now</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Intro -->
+            <section id="intro">
+                <div class="container-lg">
+                    <div class="row justify-content-center align-items-center g-5">
+                        <div class="col-md-5 text-center text-md-start">
+                            <h1>
+                                <div class="display-2">Black-Belt</div>
+                                <div class="display-5 text-muted">Your thinking skill</div>
+
+                            </h1>
+                            <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, corporis.</p>
+                            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                            <br>
+                           
+                            <a href="#sidebar"
+                                    class="btn btn-outline rounded-pill  mt-4 shadow-sm d-inline-flex  gap-2"
+                                    data-bs-toggle="offcanvas"
+                                    role="button"
+                                    aria-controls="sidebar">
+                                    <i class="bi bi-book"></i>
+                                    Explore Other Books
+                             </a>
+                               
+                        </div>
+                        <div class="col-md-5 text-center d-none d-md-block">
+                            <span class="tt" data-bs-placement="bottom" title="Thinking Fast Slow">
+                                <img class="img-fluid" src="image/thinking.webp" alt="">
+
+                            </span>              
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Pricing -->
+
+            <section id="pricing" class="bg-light mt-5">
+                <div class="container-lg">
+                    <div class="text-center">
+                        <h2>Pricing Plans</h2>
+                        <p class="lead text-muted">
+                            Choose a pricing plan that works best for you and start your thinking journey today!
+                        </p>
+                    </div>
+                    <!-- Pricing Card -->
+                    <!-- Hardcopy -->
+                    <div class="row my-5 align-items-center justify-content-center">
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Hardcopy</h4>
+                                    <p class="lead card-subtitile">Lorem ipsum dolor sit amet.</p>
+                                    <p class="display-5 my-5 text-primary fw-bold">$9.99</p>
+                                    <p class="class-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, exercitationem?</p>
+                                    <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Most Popular -->
+                        <div class="col-9 col-lg-4">
+                            <div class="card border-primary border-2">
+                                <div class="card-header text-center text-primary">Most Popular</div>
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Ebook</h4>
+                                    <p class="lead card-subtitile">Lorem ipsum dolor sit amet.</p>
+                                    <p class="display-4 my-5 text-primary fw-bold">$5.99</p>
+                                    <p class="class-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, exercitationem?</p>
+                                    <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Ebook and hardcopy -->
+                        <div class="col-8 col-lg-4 col-xl-3">
+                            <div class="card border-0">
+                                <div class="card-body text-center py-4">
+                                    <h4 class="card-title">Ebook and Hardcopy</h4>
+                                    <p class="lead card-subtitile">Lorem ipsum dolor sit amet.</p>
+                                    <p class="display-5 my-5 text-primary fw-bold">$19.99</p>
+                                    <p class="class-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, exercitationem?</p>
+                                    <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Topic -->
+        <section id="topic">
+            <div class="container-md">
+                <div class="text-center">
+                    <h2>Inside the book</h2>
+                    <p class="lead text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, esse!
+                    </p>
+                </div>
+
+                <div class="row my-5 g-5 justify-content-around align-items-center">
+
+                    <!-- Image -->
+
+                    <div class="col-6 col-lg-4">
+                        <img src="image/kindle.jfif"  class="img-fluid" alt="">
+                    </div>
+
+                    <!-- acooridion chapter -->
+                    <div class="col-lg-6">
+                        <div class="accordion" id="chapters">
+                            <!-- chapter 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button collapsed"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                                Chapter 1 - The Characters of the Story
+                                    </button>
+                                </h2>
+                                <div id="chapter-1" class="accordion-collapse collapse  p-3" aria-labelledby="heading-1" data-bs-target="chapters">
+                                    <div class="accordion-body">
+                                        Your experience as you look at the woman’s face seamlessly combines what
+                                        we normally call seeing and intuitive thinking. As surely and quickly as you
+                                        saw that the young woman’s hair is dark, you knew she is angry.
+                                        Furthermore, what you saw extended into the future. You sensed that this
+                                        woman is about to say some very unkind words, probably in a loud and
+                                        strident voice. A premonition of what she was going to do next came to
+                                        mind automatically and effortlessly. You did not intend to assess her mood
+                                        or to anticipate what she might do, and your reaction to the picture did not
+                                        have the feel of something you did. It just happened to you. It was an
+                                        instance of fast thinking.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- chapter 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button collapsed"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+                                Chapter 2 -Attention and Effort
+                                    </button>
+                                </h2>
+                                <div id="chapter-2" class="accordion-collapse collapse  p-3" aria-labelledby="heading-2" data-bs-target="chapters">
+                                    <div class="accordion-body">
+                                        In the unlikely event of this book being made into a film, System 2 would
+                                        be a supporting character who believes herself to be the hero. The defining
+                                        feature of System 2, in this story, is that its operations are effortful, and one
+                                        of its main characteristics is laziness, a reluctance to invest more effort than
+                                        is strictly necessary. As a consequence, the thoughts and actions that
+                                        System 2 believes it has chosen are often guided by the figure at the center
+                                        of the story, System 1. However, there are vital tasks that only System 2 can
+                                        perform because they require effort and acts of self-control in which the
+                                        intuitions and impulses of System 1 are overcome.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- chapter 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-3">
+                                    <button class="accordion-button collapsed"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="true" aria-controls="chapter-3">
+                                Chapter 3 - The Lazy Gene
+                                    </button>
+                                </h2>
+                                <div id="chapter-3" class="accordion-collapse collapse  p-3" aria-labelledby="heading-3 " data-bs-target="chapters">
+                                    <div class="accordion-body">
+                                        In the unlikely event of this book being made into a film, System 2 would
+                                        be a supporting character who believes herself to be the hero. The defining
+                                        feature of System 2, in this story, is that its operations are effortful, and one
+                                        of its main characteristics is laziness, a reluctance to invest more effort than
+                                        is strictly necessary. As a consequence, the thoughts and actions that
+                                        System 2 believes it has chosen are often guided by the figure at the center
+                                        of the story, System 1. However, there are vital tasks that only System 2 can
+                                        perform because they require effort and acts of self-control in which the
+                                        intuitions and impulses of System 1 are overcome.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        
+        <!-- REVIEWS SECTION -->
+        <section class="bg-light" id="review">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2>
+                        <i class="bi bi-stars"></i>
+                        Books Reviews</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit labore aliquam laudantium hic et nulla ipsam beatae maiores provident ex?</p>
+                </div>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-8">
+                        <div class="list-group">
+                            <div class="list-group-item py-3">
+                                <div class="pb-2">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill "></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <h5 class="mb-1">
+                                    This is a fascinating book 
+                                </h5>
+                                <p class="mb-1">
+                                    This is a fascinating book. Reading this book means not having to read so many others. For example, you could avoid having to read, Sway, Blink, Nudge and probably a dozen or so other books on Behavioural Economics. And the best part of it is that this is the guy (or, at least one half of the two guys) who came up with these ideas in the first place.
+                                </p>
+                                <footer class="blockquote-footer mt-1 text-end ">Trevor</footer>
+                            </div>
+
+                            <div class="list-group-item py-3">
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning "></i>
+                                    </div>
+                                    <h5 class="mb-1">
+                                        This book will rearrange the way you think... about how you think. </h5>
+                                    <p class="mb-1">
+                                        In the last few years two books took me FOREVER to get through. The first was Daniel Dennett's "Darwin's Dangerous Idea" and the second is Kahneman's "Thinking, Fast and Slow." What caused this? What do they have in common? Both books explain, in minute detail, simple concepts with immensely far-reaching implications, and both have been... after the slog... the most intellectually rewarding reading of my adult life.                        </p>
+                                    <footer class="blockquote-footer mt-1 text-end ">
+                                        Robert Schneider</footer>
+
+                            </div>
+
+                            <div class="list-group-item py-3">
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <h5 class="mb-1">
+                                        An unrelentingly tedious book that can be summed up as follows </h5>
+                                    <p class="mb-1">
+                                        An unrelentingly tedious book that can be summed up as follows. We are irrationally prone to jump to conclusions based on rule-of-thumb shortcuts to actual reasoning, and in reliance on bad evidence, even though we have the capacity to think our way to better conclusions. But we're lazy, so we don't. We don't understand statistics, and if we did, we'd be more cautious in our judgments, and less prone to think highly of our own skill at judging probabilities and outcomes. Life not only is uncertain, we cannot understand it systemically, and luck has just as much to do with what happens to us -- maybe even more -- than we care to admit. When in doubt, rely on an algorithm, because it's more accurate than your best guess or some expert's opinion. Above all, determine the baseline before you come to any decisions.                       </p>
+                                    <footer class="blockquote-footer mt-1 text-end ">
+                                        Johnr</footer>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get in Touch -->
+
+        <section id="contact">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2>Get in Touch</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, voluptatum?</p>
+                </div>
+
+                <!-- Form -->
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                        <form action="#">
+                            <label for="email" class="form-label">Email Address</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope-at-fill"></i>                                    
+                                </span>
+                                <input type="email" id="email" class="form-control" placeholder="Enter your email address">
+                                <div class="tt" data-bs-placement="bottom" title="Enter your email address">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-question-circle text-muted"></i>                                    
+                                    </span>
+                                 </div>                                  
+                            </div>
+                            <label for="name" class="form-label">Your Name</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-circle"></i>
+                                </span>
+                              <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Antonia D'Gastino">
+                                 <div class="tt" data-bs-placement="bottom" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, alias.">                                    
+                                    <span class="input-group-text">
+                                        <i class="bi bi-question-circle text-muted"></i>                                    
+                                    </span>
+                                 </div>  
+                            </div>
+                            <label for="subject" class="form-label">FAQ</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text">
+                                    <i class="bi bi-patch-question-fill"></i>
+                                </span>
+                                <select name="subject" id="subject" class="form-select">
+                                    <option value="pricing" selected>More information on pricing</option>
+                                    <option value="content">Content of books</option>
+                                    <option value="delivary">Is there any delivery option?</option>
+                                    <option value="availability">Where the order can be done</option>
+                                    <option value="other">Other</option>                    
+                                </select>
+                            </div>
+                            <div class="form-floating mb-4 mt-4">
+                                <textarea name="area" id="query" class="form-control" style="height: 150px;" ></textarea>
+                                <label for="query">Your query</label>
+                            </div>                          
+                            
+                            <div class="mb-4 text-center">
+                                <button type="submit" class="btn btn-primary ">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Update -->
+         <section class="bg-light">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Stay in the Loop</h2>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus veniam officiis aut iste dignissimos!</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod porro exercitationem rem mollitia esse harum nesciunt eveniet rerum, natus dolorem, corporis ipsam pariatur assumenda blanditiis voluptate sed voluptatum distinctio, est quibusdam ad. Eum, ipsa consequuntur, quod suscipit sed repellat autem quo vel corporis quas, placeat voluptatum fuga temporibus delectus?</p>
+                
+                    <button class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#reg-modal">
+                    Sign up now
+                    </button>
+                </div>
+            </div>
+         </section> 
+
+         <!-- modal -->
+            <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal-title">Get Latest Update</h5>
+                            <button class="btn btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dicta neque eveniet voluptates at totam laudantium adipisci praesentium rerum unde, perferendis dolorum esse consequatur, laborum dolores debitis corrupti saepe magnam? Corporis, commodi sit! Dicta excepturi quae nulla esse dolor rerum.</p>
+                            <label for="modal-email" class="form-label">Yoru email address</label>
+                            <input type="email" class="form-control" id="modal-email" placeholder="Enter your email address">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+          <!-- offcanvas -->
+           <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="sidebar-label">Other Book</h5>
+                    <button class="btn btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur expedita id quis voluptate velit pariatur ab voluptatem? Harum, fuga officia.</p>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">Choose a book title</button>
+                    <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                        <li><a href="#" class="dropdown-item ">Behavorial Misbehaving</a></li>
+                        <li><a href="#" class="dropdown-item ">The Art of War</a></li>
+                        <li><a href="#" class="dropdown-item ">The Psychology of Money</a></li>
+                        <li><a href="#" class="dropdown-item ">Atomic Habits</a></li>
+                        <li><a href="#" class="dropdown-item ">Deep Work</a></li>
+                    </ul>
+                </div>
+                </div>
+           </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script>
+                var tooltipTriggerList = [].slice.call(document.querySelectorAll('.tt'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+    </body>
+</html>
